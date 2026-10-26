@@ -1,0 +1,15 @@
+body{
+background-color:black; 
+text-align:center;
+color:white;
+margin:35px;
+font-family:sans-serif;
+}
+#heading{
+margin:30px;
+color:white;
+background-color:dodgeblue;
+padding:5px;
+padding-top:8px;
+border-radius:12px;
+}

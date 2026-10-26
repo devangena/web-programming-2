@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mouse handling</title>
+</head>
+<body>
+<h2>Mouse handling</h2>
+<img id="img" src="/home/student/Pictures/cat.bmp" width="220" height="230"
+onmouseover="changeImg()"
+onmouseout="SetOld()">
+<script>
+function changeImg(){
+document.getElementById("img").src="/home/student/Pictures/st,small,507x507-pad,600x600,f8f8f8.u3.jpg";}
+function SetOld(){
+document.getElementById("img").src=" /home/student/Pictures/cat.bmp";}
+</script>
+</body>
+</html>
